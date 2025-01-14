@@ -1,6 +1,7 @@
 
 import Link from 'next/link'
 import VideoPopup from '../elements/VideoPopup'
+import VehicleScrappingCalculator from '../elements/VehicleScrappingCalculator'
 
 export default function Hero1() {
     return (
@@ -25,9 +26,9 @@ export default function Hero1() {
                     <div className="row g-4 align-items-center">
                         <div className="col-lg-8">
                             <div className="hero-content">
-                                <h6 className="wow fadeInUp" data-wow-delay=".2s">Best it SOULTION Provider</h6>
+                                <h6 className="wow fadeInUp" data-wow-delay=".2s">Your Go-To Vehicle Scrapping Facility</h6>
                                 <h1 className="wow fadeInUp" data-wow-delay=".4s">
-                                    Website Development and Software Company in INDIA - USA
+                                    BM Motors PVT LTD
                                 </h1>
                                 {/* <p className="wow fadeInUp" data-wow-delay=".6s">
                                     Consectetur adipiscing elit aenean scelerisque at augue vitae consequat <br /> quisque eget congue velit in cursus leo sed sodales est eget turpis.
@@ -42,9 +43,7 @@ export default function Hero1() {
                             </div>
                         </div>
                         <div className="col-lg-4">
-                            <div className="hero-image wow fadeInUp" data-wow-delay=".4s">
-                                <img loading="lazy" src="/assets/img/hero/hero.png" alt="hero-img" />
-                            </div>
+                            <VehicleScrappingCalculator/>
                         </div>
                     </div>
                 </div>

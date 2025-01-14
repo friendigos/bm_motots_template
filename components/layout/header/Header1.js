@@ -82,7 +82,7 @@ export default function Header1({
                                 <div className="header-left">
                                     <div className="logo">
                                         <Link href="/" className="header-logo">
-                                            <img loading="lazy" src="/assets/img/logo/black-logo.svg" alt="logo-img" />
+                                            <img loading="lazy" src="/assets/img/logo/main.png" alt="logo-img" />
                                         </Link>
                                     </div>
                                 </div>

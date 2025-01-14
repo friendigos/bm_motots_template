@@ -13,7 +13,7 @@ const kumbh = Kumbh_Sans({
 });
 
 export const metadata = {
-  title: 'Website Development and Software Company in INDIA - USA',
+  title: 'BM Motors Pvt Ltd.',
   description: 'AIZ Infotechs is a website development and software development company in INDIA & USA that provides IT services to turn visions into reality',
 };
 

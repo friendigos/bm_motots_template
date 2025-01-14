@@ -11,9 +11,9 @@ export default function Menu() {
                         Get Best Price
                     </Link>
                 </li> */}
-                <li>
+                {/* <li>
                     <Link href="/about">About Us</Link>
-                </li>
+                </li> */}
                 {/* <li>
                     <Link href="/news">
                         Services
@@ -25,9 +25,9 @@ export default function Menu() {
                         <li><Link href="/service-details">Service Details</Link></li>
                     </ul>
                 </li> */}
-                <li>
+                {/* <li>
                     <Link href="/project-carousel">Contact Us</Link>
-                </li>
+                </li> */}
                 {/* <li className="has-dropdown">
                     <Link href="/news">
                         Pages
@@ -77,8 +77,28 @@ export default function Menu() {
                         <li><Link href="/news-details">Blog Details</Link></li>
                     </ul>
                 </li> */}
+
+
+                <li>
+                    <Link href="/contact">Get Best Price</Link>
+                </li>
+                <li>
+                    <Link href="/contact">Sell</Link>
+                </li>
+                <li>
+                    <Link href="/contact">Become Our Franchise</Link>
+                </li>
+                <li>
+                    <Link href="/contact">About Us</Link>
+                </li>
+                <li>
+                    <Link href="/contact">Contact Us</Link>
+                </li>
                 <li>
                     <Link href="/contact">More</Link>
+                </li>
+                <li>
+                    <Link href="/contact">Login</Link>
                 </li>
             </ul>
         </>
