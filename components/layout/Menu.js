@@ -89,14 +89,14 @@ export default function Menu() {
                     <Link href="/contact">Become Our Franchise</Link>
                 </li> */}
                 <li>
-                    <Link href="/contact">About Us</Link>
+                    <Link href="/about">About Us</Link>
                 </li>
                 <li>
                     <Link href="/contact">Faqs</Link>
                 </li>
                
                 <li>
-                    <Link href="/contact">About U</Link>
+                    <Link href="/contact">Think</Link>
                 </li>
             </ul>
         </>
