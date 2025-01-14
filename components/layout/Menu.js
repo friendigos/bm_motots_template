@@ -79,7 +79,7 @@ export default function Menu() {
                 </li> */}
 
 
-                <li>
+                {/* <li>
                     <Link href="/contact">Get Best Price</Link>
                 </li>
                 <li>
@@ -87,18 +87,16 @@ export default function Menu() {
                 </li>
                 <li>
                     <Link href="/contact">Become Our Franchise</Link>
-                </li>
+                </li> */}
                 <li>
                     <Link href="/contact">About Us</Link>
                 </li>
                 <li>
-                    <Link href="/contact">Contact Us</Link>
+                    <Link href="/contact">Faqs</Link>
                 </li>
+               
                 <li>
-                    <Link href="/contact">More</Link>
-                </li>
-                <li>
-                    <Link href="/contact">Login</Link>
+                    <Link href="/contact">About U</Link>
                 </li>
             </ul>
         </>
