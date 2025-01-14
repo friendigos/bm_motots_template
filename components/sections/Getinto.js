@@ -23,9 +23,9 @@ const Getinto = () => {
                                                     </svg>
                                                 </div>
                                                 <div className="content">
-                                                    <p>Tell With US</p>
+                                                    <p>Tell With Us</p>
                                                     <h3>
-                                                        <Link href="tel:+91 7874278859">+91 7874278859</Link>
+                                                        <Link href="tel:+91 7874278859">+91 9011897786</Link>
                                                     </h3>
                                                 </div>
                                             </div>
@@ -40,7 +40,7 @@ const Getinto = () => {
                                                 <div className="content">
                                                     <p>Quick Email</p>
                                                     <h3>
-                                                        <Link href="info@aizinfotechs.com">info@aizinfotechs.com</Link>
+                                                        <Link href="info@aizinfotechs.com">bmmotorspvt@gmail.com</Link>
                                                     </h3>
                                                 </div>
                                             </div>
@@ -55,14 +55,14 @@ const Getinto = () => {
 
                                                     <p>Office Location                                                        </p>
                                                     <h3>
-                                                        Al-muqaam Building,  Vishala, Ahmedabad, Gujarat 380055
+                                                    Gat No.1079, A/P-Kadamwakwasti, Pune-Solapur Highway, Tal.Haveli, Dist.-Pune
                                                     </h3>
                                                 </div>
                                             </div>
                                         </div>
                                         <div className="video-image">
-                                            <img loading="lazy" src="/assets/img/video.jpg" alt="img" />
-                                            <VideoPopup style={1} />
+                                            <img loading="lazy" src="/assets/img/contactphoto.jpg" alt="img" />
+                                            
                                         </div>
                                     </div>
                                 </div>
@@ -70,10 +70,10 @@ const Getinto = () => {
                                     <div className="contact-content">
                                         <h2>GET IN TOUCH</h2>
                                         <h3 className='pb-3'>
-                                            We Work With Top Companies And Contribute To Their Growth
+                                        Scrap Smart with BM Motors – Quick, Reliable, and Hassle-Free Vehicle Disposal Solutions!
                                         </h3>
                                         <p>
-                                            We Have Experience Working With Top Global Companies And Developing Strategies That Help Them Achieve Targets Faster And Boost Business Growth.
+                                        Get rid of your old vehicles with ease! Our efficient scrapping solutions ensure a quick, reliable, and hassle-free experience, tailored to meet your needs.
                                         </p>
                                         <form action="contact.php" id="contact-form" method="POST" className="contact-form-items">
                                             <div className="row g-4">
@@ -85,8 +85,8 @@ const Getinto = () => {
                                                 </div>
                                                 <div className="col-lg-6 wow fadeInUp" data-wow-delay=".5s">
                                                     <div className="form-clt">
-                                                        <span>Your Email*</span>
-                                                        <input type="text" name="email" id="email" placeholder="Your Email" />
+                                                        <span>Your Number*</span>
+                                                        <input type="text" name="email" id="email" placeholder="Your Number" />
                                                     </div>
                                                 </div>
                                                 <div className="col-lg-12 wow fadeInUp" data-wow-delay=".7s">
