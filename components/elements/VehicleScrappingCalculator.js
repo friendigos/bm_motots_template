@@ -2,99 +2,44 @@
 import { useState } from 'react';
 
 const VehicleScrappingCalculator = () => {
-  const [vehicleType, setVehicleType] = useState('car');
-  const [vehicleAge, setVehicleAge] = useState('');
-  const [vehicleCondition, setVehicleCondition] = useState('good');
+  const [vehicleWeight, setVehicleWeight] = useState('');
   const [scrapValue, setScrapValue] = useState(null);
 
   const calculateScrapValue = () => {
-    let baseValue = 0;
-
-    switch (vehicleType) {
-      case 'car':
-        baseValue = 5000; 
-        break;
-      case 'bike':
-        baseValue = 2000;
-        break;
-      case 'truck':
-        baseValue = 10000;
-        break;
-      default:
-        baseValue = 0;
+    const weight = parseFloat(vehicleWeight);
+    if (isNaN(weight) || weight <= 0) {
+      setScrapValue('Please enter a valid weight');
+      return;
     }
 
-    if (vehicleAge > 10) {
-      baseValue -= 1000; 
-    }
-
-    switch (vehicleCondition) {
-      case 'good':
-        baseValue += 2000; 
-        break;
-      case 'average':
-        baseValue += 1000;
-        break;
-      case 'poor':
-        baseValue -= 1000;
-        break;
-      default:
-        break;
-    }
-
-    setScrapValue(baseValue);
+    const value = weight * 0.65 * 28;
+    setScrapValue(value.toFixed(2));
   };
 
   return (
     <div className="vehicle-scrap-container">
-      <h1>Vehicle Scrapping Calculator</h1>
+      <h1>Vehicle Scrap Value Calculator</h1>
 
       <div className="vehicle-scrap-form-group">
-        <label htmlFor="vehicle-type">Vehicle Type:</label>
-        <select
-          id="vehicle-type"
-          value={vehicleType}
-          onChange={(e) => setVehicleType(e.target.value)}
-        >
-          <option value="car">Car</option>
-          <option value="bike">Bike</option>
-          <option value="truck">Truck</option>
-        </select>
-      </div>
-
-      <div className="vehicle-scrap-form-group">
-        <label htmlFor="vehicle-age">Vehicle Age (in years):</label>
+        <label htmlFor="vehicle-weight">Unladen Weight (in kg):</label>
         <input
           type="number"
-          id="vehicle-age"
-          value={vehicleAge}
-          onChange={(e) => setVehicleAge(e.target.value)}
+          id="vehicle-weight"
+          value={vehicleWeight}
+          onChange={(e) => setVehicleWeight(e.target.value)}
           min="1"
-          max="50"
           required
+          placeholder="Enter vehicle weight"
         />
       </div>
 
-      <div className="vehicle-scrap-form-group">
-        <label htmlFor="vehicle-condition">Condition of Vehicle:</label>
-        <select
-          id="vehicle-condition"
-          value={vehicleCondition}
-          onChange={(e) => setVehicleCondition(e.target.value)}
-        >
-          <option value="good">Good</option>
-          <option value="average">Average</option>
-          <option value="poor">Poor</option>
-        </select>
-      </div>
-
       <button className="vehicle-scrap-calculate-button" onClick={calculateScrapValue}>
-        Calculate Scrap Value
+        Get Value
       </button>
 
       {scrapValue !== null && (
         <div className="vehicle-scrap-result">
-          <h3>Estimated Scrap Value: ₹{scrapValue}</h3>
+          <h3>Estimated Value: ₹{scrapValue}</h3>
         </div>
       )}
     </div>

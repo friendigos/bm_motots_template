@@ -18,6 +18,8 @@ import "/public/assets/css/main.css"
 import { Chokokutai } from "next/font/google"
 import ChooseUs1 from "@/components/sections/ChooseUs1"
 import Getinto from "@/components/sections/Getinto"
+import Works from "@/app/bm-works/Works"
+import FrequentlyAskedQ from "./faq/FrequentlyAskedQ"
 export default function Home() {
 
     return (
@@ -27,6 +29,7 @@ export default function Home() {
                 <Hero1 />
                 {/* <Marque1 /> */}
                 <About2 />
+                <Works/>
                 <Brand1 />
                 <Service1 />
                 {/* <Achievement4 /> */}
@@ -40,7 +43,9 @@ export default function Home() {
                 {/* <Faq1 /> */}
                 <Getinto/>
                 <News1 />
+                <FrequentlyAskedQ/>
                 <Cta2 />
+                
             </Layout>
         </>
     )
