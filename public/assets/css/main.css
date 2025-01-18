@@ -4070,12 +4070,10 @@ span {
 }
 
 .hero-1 {
-  /* position: relative; */
   z-index: 9;
-  /* padding-top: 50px; */
   display: flex;
   align-items: center;
-  height: 80vh;
+  height: 100vh;
 }
 @media (max-width: 1199px) {
   .hero-1 {
@@ -8091,4 +8089,49 @@ html {
 .arrow {
   font-size: 16px;
   margin-left: 10px;
+}
+
+.whyChooseRewireContainer {
+  /* background: linear-gradient(90deg, #183C92 0%, #2F6DD2 100%); */
+  background-color: var(--theme);
+  padding: 60px 20px;
+  text-align: center;
+  color: white;
+  margin-top: 8em;
+}
+
+.whyChooseRewireContainer h2 {
+  color: white;
+}
+.whyChooseRewireHeading {
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+.whyChooseRewireLogo {
+  font-weight: bolder;
+  font-size: 2em;
+  position: relative;
+  top: .2em;
+  color: #ffffff;
+}
+.whyChooseRewireFeatures {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+/* styles/FeatureItemBlock.module.css */
+.featureItemBlock {
+  max-width: 300px;
+  padding: 20px;
+}
+.featureItemTitle {
+  color: white;
+  font-size: 1.3rem;
+  margin-top: 20px;
+}
+.featureItemDescription {
+  font-size: .9rem;
+  margin-top: 10px;
 }

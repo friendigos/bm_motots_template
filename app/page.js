@@ -20,6 +20,7 @@ import ChooseUs1 from "@/components/sections/ChooseUs1"
 import Getinto from "@/components/sections/Getinto"
 import Works from "@/app/bm-works/Works"
 import FrequentlyAskedQ from "./faq/FrequentlyAskedQ"
+import WhyChooseReValue from "./why-choose/WhyChooseRevalue"
 export default function Home() {
 
     return (
@@ -30,6 +31,7 @@ export default function Home() {
                 {/* <Marque1 /> */}
                 <About2 />
                 <Works/>
+                <WhyChooseReValue/>
                 <Brand1 />
                 <Service1 />
                 {/* <Achievement4 /> */}
