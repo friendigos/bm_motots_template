@@ -18,12 +18,22 @@ export default function Footer1() {
                                 <div className="single-footer-widget">
                                     <div className="widget-head">
                                         <Link href="/">
-                                            <img loading="lazy" src="/assets/img/logo/white-logo.svg" alt="logo-img" />
+                                            {/* <img loading="lazy" src="/assets/img/logo/white-logo.svg" alt="logo-img" /> */}
+                                            <div className="header-left footer-logo">
+                                                <div className="logo">
+                                                    <Link href="/" className="header-logo">
+                                                        <img loading="lazy" src="/assets/img/logo/main.png" alt="logo-img" />
+                                                    </Link>
+                                                    <div className="main-logo-heading">
+                                                        <h3>B M Motors PVT LTD</h3>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </Link>
                                     </div>
                                     <div className="footer-content">
                                         <p>
-                                        AIZ INFOTECH Is A Leading Web Development And Designing Company.
+                                        GOVT. AUTHORIZED (Registered Vehicle Scrapping Facility)
                                         </p>
                                         <div className="social-icon d-flex align-items-center">
                                             <Link href="#"><i className="fab fa-facebook-f" /></Link>

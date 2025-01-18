@@ -43,9 +43,10 @@ export default function Service1() {
                 <div className="container">
                     <div className="section-title-area">
                         <div className="section-title">
-                            <span className="wow fadeInUp">WEBSITE DEVELOPMENT SERVICES</span>
+                            <span className="wow fadeInUp">WFROM THE BLOG</span>
                             <h2 className="wow fadeInUp" data-wow-delay=".3s">
-                                Website Development <br /> Services
+                                Media Coverage & News 
+                                {/* <br /> Services */}
                             </h2>
                         </div>
                         <div className="array-button">

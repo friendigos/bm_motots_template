@@ -84,6 +84,10 @@ export default function Header1({
                                         <Link href="/" className="header-logo">
                                             <img loading="lazy" src="/assets/img/logo/main.png" alt="logo-img" />
                                         </Link>
+                                        <div className="main-logo-heading">
+                                            <h3>B M Motors PVT LTD</h3>
+                                            <h4>GOVT. AUTHORIZED (Registered Vehicle Scrapping Facility)</h4>
+                                        </div>
                                     </div>
                                 </div>
                                 {isHeaderRightLoaded && (

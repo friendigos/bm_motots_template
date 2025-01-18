@@ -346,8 +346,7 @@ span {
 }
 .about-wrapper .about-image-items .about-image-1 .about-image-2 {
   position: absolute;
-  bottom: -13%;
-  right: -35%;
+  bottom: -35%;
 }
 @media (max-width: 1399px) {
   .about-wrapper .about-image-items .about-image-1 .about-image-2 {
@@ -2228,6 +2227,15 @@ span {
   }
 }
 
+.footer-logo img{
+  height: 4.5em;
+}
+
+.footer-logo h4{
+  padding-top: 10px;
+}
+
+
 .footer-widgets-wrapper {
   padding: 90px 0 120px;
   position: relative;
@@ -2270,7 +2278,7 @@ span {
   font-size: 24px;
   border-bottom: 1px solid var(--white);
   display: inline-block;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 .footer-widgets-wrapper .single-footer-widget .footer-content p {
   color: var(--text-2);
@@ -3439,6 +3447,22 @@ span {
 }
 .sticky.header-3 .header-main .header-right .header-button .theme-btn svg path {
   fill: var(--white);
+}
+
+.header-left .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-left .logo .main-logo-heading {
+  position: relative;
+  left: -1em;
+}
+
+.header-left .logo .main-logo-heading h4{
+  color: var(--theme);
+  font-size: .8em;
 }
 
 .offcanvas__info {
@@ -8034,16 +8058,17 @@ html {
 /* FAQs */
 /* FAQ Container */  
 .wrapper {
-  background-image: url(../../assets/img/service/service-bg-3.jpg);
+  /* background-image: url(../../assets/img/service/service-bg-3.jpg); */
+  background-color: var(--theme2);
   width: 100%;
 }
 
 .faq-container {
   width: 80%;
   margin: 20px auto;
-  padding: 70px 0;
+  padding: 50px 0;
   /* background-color: #000; */
-  color: black;
+  color: rgb(255, 255, 255);
 }
 
 /* Header Styling */
@@ -8053,17 +8078,17 @@ html {
   text-align: center;
   border-radius: 8px;
   margin-bottom: 20px;
-  color: #15067D;
+  color: #ffffff;
 }
 
 .faq-header h2 {
   margin: 0;
-  color: #15067D;
+  color: #ffffff;
 }
 
 /* FAQ Item Styling */
 .faq-item {
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #ffffff;
   padding: 10px 0;
 }
 
@@ -8078,12 +8103,13 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  color: white;
 }
 
 .faq-answer {
   margin-top: 10px;
   font-size: 16px;
-  color: #555;
+  color: #e6e0e0;
 }
 
 .arrow {
@@ -8091,6 +8117,34 @@ html {
   margin-left: 10px;
 }
 
+.wrapper .faq-container .faq-header .toggle-questions-btn{
+  /* color: var(--theme); */
+  color: white;
+}
+
+.toggle-questions-btn {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.toggle-questions-btn button {
+  background: none;
+  border: none;
+  /* color: var(--theme); */
+  color: rgb(202, 199, 199);
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 10px;
+  opacity: 0.8;
+}
+
+.toggle-questions-btn button:hover {
+  opacity: 1;
+}
+
+
+
+/* why choose ? */
 .whyChooseRewireContainer {
   /* background: linear-gradient(90deg, #183C92 0%, #2F6DD2 100%); */
   background-color: var(--theme);
@@ -8117,7 +8171,7 @@ html {
 .whyChooseRewireFeatures {
   display: flex;
   justify-content: center;
-  gap: 40px;
+  gap: 8em;
   flex-wrap: wrap;
 }
 

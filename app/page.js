@@ -44,7 +44,7 @@ export default function Home() {
                 {/* <Pricing1 /> */}
                 {/* <Faq1 /> */}
                 <Getinto/>
-                <News1 />
+                {/* <News1 /> */}
                 <FrequentlyAskedQ/>
                 <Cta2 />
                 

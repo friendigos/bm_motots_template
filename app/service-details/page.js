@@ -268,7 +268,7 @@ export default function ServiceDetails() {
                                     <SwiperSlide>
                                         <div className="service-box-items">
                                             <div className="icon">
-                                                <img loading="lazy" src="/assets/img/service/icon/s-icon-1.svg" alt="icon-img" />
+                                                <img loading="lazy" src="/assets/img/Scrap/1.png" alt="icon-img" />
                                             </div>
                                             <div className="content">
                                                 <h4>
@@ -286,7 +286,7 @@ export default function ServiceDetails() {
                                     <SwiperSlide>
                                         <div className="service-box-items">
                                             <div className="icon">
-                                                <img loading="lazy" src="/assets/img/service/icon/s-icon-2.svg" alt="icon-img" />
+                                                <img loading="lazy" src="/assets/img/Scrap/1.png" alt="icon-img" />
                                             </div>
                                             <div className="content">
                                                 <h4>
@@ -303,7 +303,7 @@ export default function ServiceDetails() {
                                     <SwiperSlide>
                                         <div className="service-box-items">
                                             <div className="icon">
-                                                <img loading="lazy" src="/assets/img/service/icon/s-icon-3.svg" alt="icon-img" />
+                                                <img loading="lazy" src="/assets/img/Scrap/1.png" alt="icon-img" />
                                             </div>
                                             <div className="content">
                                                 <h4>
@@ -320,7 +320,7 @@ export default function ServiceDetails() {
                                     <SwiperSlide>
                                         <div className="service-box-items">
                                             <div className="icon">
-                                                <img loading="lazy" src="/assets/img/service/icon/s-icon-4.svg" alt="icon-img" />
+                                                <img loading="lazy" src="/assets/img/Scrap/1.png" alt="icon-img" />
                                             </div>
                                             <div className="content">
                                                 <h4>
