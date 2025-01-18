@@ -334,6 +334,9 @@ span {
   font-size: 28px;
   font-weight: bold;
 }
+.about-image-items .about-img {
+  position: relative;
+}
 .about-wrapper .about-image-items .about-image-1 {
   max-width: 415px;
   height: 445px;
@@ -8188,4 +8191,14 @@ html {
 .featureItemDescription {
   font-size: .9rem;
   margin-top: 10px;
+}
+
+#blank {
+  height: 2em;
+}
+
+.img-div img{
+  position: relative;
+  left: 4em;
+  border-radius: 3em;
 }

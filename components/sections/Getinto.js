@@ -96,7 +96,7 @@ const Getinto = () => {
                                                     </div>
                                                 </div>
                                                 <div className="col-lg-7 wow fadeInUp" data-wow-delay=".9s">
-                                                    <button type="submit" className="theme-btn">
+                                                    <button id='submit-button' type="submit" className="theme-btn">
                                                         Send Message <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height={'17px'} width={"17px"} ><path d="M429.8 273l17-17-17-17L276.2 85.4l-17-17-33.9 33.9 17 17L354.9 232 24 232 0 232l0 48 24 0 330.8 0L242.2 392.6l-17 17 33.9 33.9 17-17L429.8 273z" /></svg>
                                                     </button>
                                                 </div>

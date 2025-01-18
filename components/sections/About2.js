@@ -23,11 +23,14 @@ export default function About2() {
                                             <p>Of Experience</p>
                                         </div>
                                     </div>
-                                    <div className="about-image-1 bg-cover wow fadeInLeft" data-wow-delay=".3s" style={{ backgroundImage: 'url("assets/img/NitinGadkari.jpg")' }}>
+                                    <div className="img-div">
+                                        <img loading="lazy" src="assets/img/NitinGadkari.jpg" alt="about-img" />                                    
+                                    </div>
+                                    {/* <div className="about-image-1 bg-cover wow fadeInLeft" data-wow-delay=".3s" style={{ backgroundImage: 'url("assets/img/NitinGadkari.jpg")' }}>
                                         <div className="about-image-2 wow fadeInUp" data-wow-delay=".5s">
                                             <img loading="lazy" src="/assets/img/about/04.jpg" alt="about-img" />
                                         </div>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                             <div className="col-lg-6 mt-4 mt-lg-0">

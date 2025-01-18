@@ -39,7 +39,7 @@ const FrequentlyAskedQ = () => {
   const displayedFaqs = showAll ? faqs : faqs.slice(0, 4);
 
   return (
-    <div className='wrapper'>
+    <div id='faqs' className='wrapper'>
       <div className="faq-container">
         <div className="faq-header">
           <h2>Frequently Asked Questions</h2>

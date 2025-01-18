@@ -4,7 +4,7 @@ export default function Footer1() {
     return (
         <>
 
-            <footer className="footer-section">
+            <footer id="footer-section" className="footer-section">
                 <div className="footer-widgets-wrapper footer-bg">
                     <div className="shape-1">
                         <img loading="lazy" src="/assets/img/footer-shape-1.png" alt="shape-img" />

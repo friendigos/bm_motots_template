@@ -21,6 +21,7 @@ import Getinto from "@/components/sections/Getinto"
 import Works from "@/app/bm-works/Works"
 import FrequentlyAskedQ from "./faq/FrequentlyAskedQ"
 import WhyChooseReValue from "./why-choose/WhyChooseRevalue"
+import Blank from "@/components/elements/Blank"
 export default function Home() {
 
     return (
@@ -45,6 +46,7 @@ export default function Home() {
                 {/* <Faq1 /> */}
                 <Getinto/>
                 {/* <News1 /> */}
+                <Blank/>
                 <FrequentlyAskedQ/>
                 <Cta2 />
                 

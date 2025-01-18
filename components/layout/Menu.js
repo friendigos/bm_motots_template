@@ -1,6 +1,12 @@
 import Link from "next/link"
 
 export default function Menu() {
+    const handleNavigation = (id) => {
+        const element = document.getElementById(id);
+        if (element) {
+          element.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
 
     return (
         <>
@@ -88,13 +94,23 @@ export default function Menu() {
                 <li>
                     <Link href="/contact">Become Our Franchise</Link>
                 </li> */}
-                <li>
+
+                {/* <li>
                     <Link href="/about">About Us</Link>
                 </li>
                 <li>
-                    <Link href="/contact">Faqs</Link>
+                    <Link href="#faqs">Faqs</Link>
                 </li>
-               
+                <li>
+                    <Link href="/contact">Think</Link>
+                </li> */}
+
+                <li onClick={() => handleNavigation('about')} style={{ cursor: 'pointer' }}>
+                    <Link href="/about">About</Link>
+                </li>
+                <li onClick={() => handleNavigation('blank')} style={{ cursor: 'pointer' }}>
+                    <Link href="#blank">FAQs</Link>
+                </li>
                 <li>
                     <Link href="/contact">Think</Link>
                 </li>
