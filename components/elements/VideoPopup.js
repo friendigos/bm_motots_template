@@ -16,10 +16,10 @@ export default function VideoPopup({ style }) {
             }
             {style === 2 &&
                 <div className="video-box">
-                    <a onClick={() => setOpen(true)} className="video-buttton video-popup">
+                    {/* <a onClick={() => setOpen(true)} className="video-buttton video-popup">
                         <i className="fa-solid fa-play" />
                         <img loading="lazy" src="/assets/img/about/circle-text.png" alt="text-img" className="text-circle" />
-                    </a>
+                    </a> */}
                 </div>
             }
             {style === 3 &&

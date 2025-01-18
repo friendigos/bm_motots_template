@@ -13,19 +13,19 @@ export default function About1() {
                         <div className="row">
                             <div className="col-lg-6">
                                 <div className="about-image-items">
-                                    <div className="counter-shape float-bob-y">
+                                    {/* <div className="counter-shape float-bob-y">
                                         <div className="icon">
                                             <img loading="lazy" src="/assets/img/about/icon-1.svg" alt="icon-img" />
                                         </div>
                                         <div className="content">
                                             <h3><CounterUp count={160}/>+ <p security={{fontSize:"10px"}}>Get National Award</p></h3>
                                         </div>
-                                    </div>
+                                    </div> */}
                                     <VideoPopup style={2} />
                                     <div className="about-image-1 bg-cover wow fadeInLeft" data-wow-delay=".3s" style={{ backgroundImage: 'url("assets/img/about/01.jpg")' }}>
-                                        <div className="about-image-2 wow fadeInUp" data-wow-delay=".5s">
+                                        {/* <div className="about-image-2 wow fadeInUp" data-wow-delay=".5s">
                                             <img loading="lazy" src="/assets/img/about/02.jpg" alt="about-img" />
-                                        </div>
+                                        </div> */}
                                     </div>
                                 </div>
                             </div>

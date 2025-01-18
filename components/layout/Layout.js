@@ -55,11 +55,11 @@ export default function Layout({ headerStyle, footerStyle, onePageNav, breadcrum
             {children}
 
             {!footerStyle && < Footer1 />}
-            {footerStyle == 1 ? < Footer1 /> : null}
-            {footerStyle == 2 ? < Footer2 /> : null}
-            {footerStyle == 3 ? < Footer3 /> : null}
+            {footerStyle == 1 || footerStyle == 2 || footerStyle == 3 || footerStyle == 4 || footerStyle == 5 ? < Footer1 /> : null}
+            {/* {footerStyle == 2 ? < Footer2 /> : null} */}
+            {/* {footerStyle == 3 ? < Footer3 /> : null}
             {footerStyle == 4 ? < Footer4 /> : null}
-            {footerStyle == 5 ? < Footer5 /> : null}
+            {footerStyle == 5 ? < Footer5 /> : null} */}
 
             <BackToTop />
         </>

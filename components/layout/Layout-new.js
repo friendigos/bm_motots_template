@@ -37,7 +37,7 @@ export default function Layout({ headerStyle, footerStyle, onePageNav, children 
             {children}
 
             {!footerStyle && < Footer1 />}
-            {footerStyle == 1 ? < Footer5 /> : null}
+            {/* {footerStyle == 1 ? < Footer5 /> : null} */}
 
             <BackToTop />
         </>

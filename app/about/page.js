@@ -184,7 +184,7 @@ export default function About() {
 
                     <Testimonial1/>
                     <Getinto/>
-                <News1/>
+                {/* <News1/> */}
 
 
                     {/* <div className="brand-section fix section-padding pt-0">
