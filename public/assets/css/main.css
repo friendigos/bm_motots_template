@@ -8202,3 +8202,54 @@ html {
   left: 4em;
   border-radius: 3em;
 }
+
+.aboutImg {
+  height: 10px;
+  width: 40px;
+  border: 20px solid black;
+}
+
+.team-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5em;
+  margin: 20px 0;
+}
+
+.team-info.reverse {
+  flex-direction: row-reverse;
+}
+
+.photo img {
+  width: 15em;
+  height: 15em;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.text {
+  max-width: 400px;
+}
+
+.text h2 {
+  margin: 0 0 10px;
+  font-size: 1.5em;
+  color: #333;
+}
+
+.text p {
+  margin: 0;
+  font-size: 1em;
+  color: #555;
+  line-height: 1.5;
+}
+
+.team-page-heading {
+  text-align: center;
+  margin: 15vmin 20px 0;
+  color: var(--theme);
+  font-size: 3.5em;
+  font-weight: bold;
+}

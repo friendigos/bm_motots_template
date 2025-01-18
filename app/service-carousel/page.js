@@ -44,7 +44,6 @@ export default function ServiceCarousel() {
 
     return (
         <>
-
             <Layout headerStyle={1} footerStyle={2} breadcrumbTitle="Services">
                 <div>
                     <section className="service-section-3 fix section-padding">

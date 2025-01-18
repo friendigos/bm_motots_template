@@ -2,27 +2,28 @@
 import Link from 'next/link'
 import VideoPopup from '../elements/VideoPopup'
 import CounterUp from '../elements/CounterUp'
+import TeamPage from '@/app/team/TeamPage'
 
 export default function About3() {
     return (
         <>
+            <TeamPage />
             <section className="about-section section-padding fix bg-cover" id="about">
                 <div className="container">
                     <div className="about-wrapper-2">
-                        <div className="row">
+                        {/* <div className="row">
 
                             <div className="col-lg-6 mt-4 mt-lg-0">
                                 <div className="about-content">
                                     <div className="section-title">
                                         <span className="wow fadeInUp">WHO WE ARE</span>
                                         <h2 className="wow fadeInUp" data-wow-delay=".3s">
-
-                                            Best Company <br /> Especially In Business
+                                            Best Company <br /> 
                                         </h2>
                                     </div>
                                     <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
                                         Aenean Ac Vulputate Nibh, Sed Fringilla Metus. Pellentesque Porttitor Felis Eu Nunc Feugiat, Nec Condimentum Magna Ultricies. Nam Vitae Est Accumsan Nunc Sed Fringilla Metu
-                                        {/* It is a long established fact that a reader will be distracted the readable <br /> content of a page when looking at layout the point. */}
+                                        It is a long established fact that a reader will be distracted the readable <br /> content of a page when looking at layout the point.
                                     </p>
                                     <div className="icon-area wow fadeInUp" data-wow-delay=".7s">
                                         <div className="icon-items">
@@ -59,7 +60,7 @@ export default function About3() {
                                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height={'17px'} width={"17px"} ><path d="M429.8 273l17-17-17-17L276.2 85.4l-17-17-33.9 33.9 17 17L354.9 232 24 232 0 232l0 48 24 0 330.8 0L242.2 392.6l-17 17 33.9 33.9 17-17L429.8 273z" /></svg>
                                             </Link>
                                         </div>
-                                        {/* <div className="author-icon wow fadeInUp" data-wow-delay=".9s">
+                                        <div className="author-icon wow fadeInUp" data-wow-delay=".9s">
                                             <div className="icon">
                                                 <i className="fa-solid fa-phone" />
                                             </div>
@@ -69,7 +70,7 @@ export default function About3() {
                                                     <Link href="tel:+2085550112">+208-555-0112</Link>
                                                 </h5>
                                             </div>
-                                        </div> */}
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -81,13 +82,13 @@ export default function About3() {
                                     <div className="circle-shape">
                                         <img loading="lazy" src="/assets/img/about/circle.png" alt="shape-img" />
                                     </div>
-                                    <img loading="lazy" src="/assets/img/about/05.png" alt="about-img" />
+                                    <img loading="lazy" src="/assets/img/about/03.png" alt="about-img-1" className='aboutImg'/>
                                     <div className="video-box">
                                         <VideoPopup style={1} />
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
 
                     </div>
                 </div>

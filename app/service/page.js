@@ -210,7 +210,7 @@ export default function Service() {
                                 <div className="row g-4">
                                     <div className="col-lg-6 wow fadeInUp" data-wow-delay=".4s">
                                         <div className="faq-image">
-                                            <img loading="lazy" src="/assets/img/faq/faq.png" alt="faq-img" />
+                                            <img loading="lazy" src="/assets/img/news/02.jpg" alt="faq-img" />
                                         </div>
                                     </div>
                                     <div className="col-lg-6">
