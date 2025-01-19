@@ -1,6 +1,7 @@
 'use client'
 import Link from "next/link"
 import MobileMenu from "./MobileMenu"
+import Heading from "../Heading"
 
 export default function Offcanvas({
     isOffCanvas,
@@ -15,7 +16,7 @@ export default function Offcanvas({
                             <div className="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
                                 <div className="offcanvas__logo">
                                     <Link href="/">
-                                        <img loading="lazy" src="/assets/img/logo/black-logo.svg" alt="logo-img" />
+                                        <Heading />
                                     </Link>
                                 </div>
                                 <div className="offcanvas__close" onClick={handleOffCanvas}>

@@ -2232,6 +2232,7 @@ span {
 
 .footer-logo img{
   height: 4.5em;
+  /* border: 1px solid white;; */
 }
 
 .footer-logo h4{
@@ -3456,6 +3457,9 @@ span {
   display: flex;
   justify-content: center;
   align-items: center;
+  /* border: 1px solid white; */
+  position: relative;
+  left: -2em;
 }
 
 .header-left .logo .main-logo-heading {

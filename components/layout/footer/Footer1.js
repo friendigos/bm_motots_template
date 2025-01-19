@@ -1,3 +1,4 @@
+import Heading from "@/components/Heading"
 import Link from "next/link"
 
 export default function Footer1() {
@@ -19,16 +20,7 @@ export default function Footer1() {
                                     <div className="widget-head">
                                         <Link href="/">
                                             {/* <img loading="lazy" src="/assets/img/logo/white-logo.svg" alt="logo-img" /> */}
-                                            <div className="header-left footer-logo">
-                                                <div className="logo">
-                                                    <Link href="/" className="header-logo">
-                                                        <img loading="lazy" src="/assets/img/logo/main.png" alt="logo-img" />
-                                                    </Link>
-                                                    <div className="main-logo-heading">
-                                                        <h3>B M Motors PVT LTD</h3>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                            <Heading />
                                         </Link>
                                     </div>
                                     <div className="footer-content">
@@ -51,25 +43,31 @@ export default function Footer1() {
                                     </div>
                                     <ul className="list-area">
                                         <li>
-                                            <Link href="/about">
+                                            <Link href="/">
                                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" height={'18px'} width={"18px"}><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg>
                                                 Home
                                             </Link>
                                         </li>
-                                        <li>
+                                        {/* <li>
                                             <Link href="/service">
                                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" height={'18px'} width={"18px"}><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg>
                                                 About Us
                                             </Link>
+                                        </li> */}
+                                         <li>                                   
+                                            <Link href="/about">
+                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" height={'18px'} width={"18px"}><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg>
+                                                About Us
+                                            </Link>
                                         </li>
-                                        <li>
+                                        {/* <li>
                                             <Link href="/news">
                                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" height={'18px'} width={"18px"}><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg>
                                                 Portfolios
                                             </Link>
-                                        </li>
+                                        </li> */}
                                         <li>
-                                            <Link href="/faq">
+                                            <Link href="/contact">
                                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" height={'18px'} width={"18px"}><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg>
                                                 Contact
                                             </Link>
@@ -164,7 +162,8 @@ export default function Footer1() {
                     <div className="container">
                         <div className="footer-wrapper d-flex align-items-center justify-content-between">
                             <p className="wow fadeInLeft color-2" data-wow-delay=".3s">
-                                © All Copyright {new Date().getFullYear()} by <Link href="/">Infotech</Link>
+                                {/* © All Copyright {new Date().getFullYear()} by <Link href="/">B M Motors</Link> */}
+                                © All Copyright reseved
                             </p>
                             <ul className="footer-menu wow fadeInRight" data-wow-delay=".5s">
                                 <li>

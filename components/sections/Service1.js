@@ -43,7 +43,7 @@ export default function Service1() {
                 <div className="container">
                     <div className="section-title-area">
                         <div className="section-title">
-                            <span className="wow fadeInUp">WFROM THE BLOG</span>
+                            <span className="wow fadeInUp">FROM THE BLOG</span>
                             <h2 className="wow fadeInUp" data-wow-delay=".3s">
                                 Media Coverage & News 
                                 {/* <br /> Services */}
