@@ -1,4 +1,7 @@
 import Link from "next/link"
+import { Router } from "next/router";
+import { Route, Routes } from "react-router-dom";
+import Blank from "../elements/Blank";
 
 export default function Menu() {
     const handleNavigation = (id) => {

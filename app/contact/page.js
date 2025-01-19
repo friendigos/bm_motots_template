@@ -5,6 +5,8 @@ import Layout from "@/components/layout/Layout"
 import "/public/assets/css/bootstrap.min.css"
 import "/public/assets/css/main.css"
 import Getinto from "@/components/sections/Getinto"
+import FrequentlyAskedQ from "../faq/FrequentlyAskedQ"
+import Blank from "@/components/elements/Blank"
 
 export default function Contact() {
 
@@ -121,6 +123,8 @@ export default function Contact() {
                             </div>
                         </div>
                     </div>
+                    <Blank/>
+                    <FrequentlyAskedQ/>
                 </div>
 
             </Layout>

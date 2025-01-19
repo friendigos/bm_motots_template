@@ -1,10 +1,13 @@
+import FrequentlyAskedQ from "@/app/faq/FrequentlyAskedQ"
+import Blank from "@/components/elements/Blank"
 import Heading from "@/components/Heading"
 import Link from "next/link"
 
 export default function Footer1() {
     return (
         <>
-
+            <Blank/>
+            <FrequentlyAskedQ/>
             <footer id="footer-section" className="footer-section">
                 <div className="footer-widgets-wrapper footer-bg">
                     <div className="shape-1">
