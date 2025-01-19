@@ -123,8 +123,8 @@ export default function Contact() {
                             </div>
                         </div>
                     </div>
-                    <Blank/>
-                    <FrequentlyAskedQ/>
+                    {/* <Blank/>
+                    <FrequentlyAskedQ/> */}
                 </div>
 
             </Layout>

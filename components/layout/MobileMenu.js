@@ -30,7 +30,7 @@ export default function MobileMenu() {
                             <li>
                                 <Link href="/about">About</Link>
                             </li>
-                            <li>
+                            {/* <li>
                                 <Link href="/news">
                                     Services
                                     <i className="fas fa-angle-down" />
@@ -77,7 +77,7 @@ export default function MobileMenu() {
                                 <button type="button" className={`mean-expand ${activeItem === 4 ? "mean-clicked" : ""}`} onClick={() => handleActiveItem(4)} aria-expanded={activeItem === 2} aria-controls="dropdown-content" aria-label="Expand or collapse dropdown">
                                     <i className="far fa-plus" />
                                 </button>
-                            </li>
+                            </li> */}
                             <li className="mean-last">
                                 <Link href="/contact">Contact</Link>
                             </li>

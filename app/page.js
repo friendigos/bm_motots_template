@@ -46,8 +46,8 @@ export default function Home() {
                 {/* <Faq1 /> */}
                 <Getinto/>
                 {/* <News1 /> */}
-                <Blank/>
-                <FrequentlyAskedQ/>
+                {/* <Blank/>
+                <FrequentlyAskedQ/> */}
                 <Cta2 />
                 
             </Layout>
