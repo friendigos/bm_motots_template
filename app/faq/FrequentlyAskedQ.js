@@ -33,7 +33,19 @@ const FrequentlyAskedQ = () => {
     {
       question: 'What documents are needed to sell my vehicle for scrapping?',
       answer: '1. Original registration certificate 2. PAN card of registered owner 3. KYC of registered owner (Aadhar card OR Passport OR Voter ID of registered owner)* 4. Address Proof* 5. Vehicle Ownership proof Cancelled cheque of owner/Bank details with IMPS facility registered* 6. Loan closure certificate or NOC'
-    }
+    },
+    {
+      question: 'How should I dispose or scrap my old vehicle?',
+      answer: 'Check price online and request for a call back to book an appointment. REWIRE Sales executive/evaluator would visit from the nearest franchise for vehicle evaluation and help you with assessment, sell, deregister and other paperwork. You could also walk-in to our nearest franchise to sell your old car/truck directly.'
+    },
+    {
+      question: 'How will I get Certificate of Deposit and Scrappage Certificate?',
+      answer: 'After successful deregistration of the vehicle on Vahan Portal, certificate of deposit would be generated and given to the vehicle owner. Vehicle scrappage certificate to be provided to the vehicle owner after complete dismantling and disposal of the vehicle.'
+    },
+    {
+      question: 'Does REWIRE provides home evaluation? Is there a cost of evaluation',
+      answer: 'The evaluation is free of cost at your doorstep. You can check the scrap car/truck price online and request for a call back. The evaluator will call back and will visit as per your convenience for detail assessment of the vehicle.'
+    },
   ];
 
   const displayedFaqs = showAll ? faqs : faqs.slice(0, 4);

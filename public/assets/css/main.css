@@ -8214,12 +8214,29 @@ html {
   border: 20px solid black;
 }
 
+
+
+/* team page */
+.team-page-main {
+  display: flex;
+  justify-content: center;
+  background: var(--theme2);
+  margin-top: 100px;
+}
+.team-page {
+  /* background-color: var(--bg); */
+  width: 80%;
+  padding-bottom: 5em;
+  position: relative;
+}
 .team-info {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 5em;
-  margin: 20px 0;
+  gap: 10em;
+  margin: 2em 5em ;
+  background: var(--bg);
+  padding: 2em;
 }
 
 .team-info.reverse {
@@ -8229,7 +8246,7 @@ html {
 .photo img {
   width: 15em;
   height: 15em;
-  border-radius: 50%;
+  /* border-radius: 50%; */
   object-fit: cover;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -8241,7 +8258,7 @@ html {
 .text h2 {
   margin: 0 0 10px;
   font-size: 1.5em;
-  color: #333;
+  color: var(--theme2);
 }
 
 .text p {
@@ -8253,8 +8270,7 @@ html {
 
 .team-page-heading {
   text-align: center;
-  margin: 15vmin 20px 0;
-  color: var(--theme);
-  font-size: 3.5em;
-  font-weight: bold;
+  margin: 5vmin 0;
+  color: var(--bg);
+  font-size: 3em;
 }
