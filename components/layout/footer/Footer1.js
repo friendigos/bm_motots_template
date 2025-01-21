@@ -9,38 +9,24 @@ export default function Footer1() {
             <Blank/>
             <FrequentlyAskedQ/>
             <footer id="footer-section" className="footer-section">
-                <div className="footer-widgets-wrapper footer-bg">
-                    <div className="shape-1">
-                        <img loading="lazy" src="/assets/img/footer-shape-1.png" alt="shape-img" />
-                    </div>
-                    <div className="shape-2">
-                        <img loading="lazy" src="/assets/img/footer-shape-2.png" alt="shape-img" />
-                    </div>
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".3s">
-                                <div className="single-footer-widget">
-                                    <div className="widget-head">
-                                        <Link href="/">
-                                            {/* <img loading="lazy" src="/assets/img/logo/white-logo.svg" alt="logo-img" /> */}
-                                            <Heading />
-                                        </Link>
-                                    </div>
-                                    <div className="footer-content">
-                                        <p>
-                                        GOVT. AUTHORIZED (Registered Vehicle Scrapping Facility)
-                                        </p>
-                                        <div className="social-icon d-flex align-items-center">
-                                            <Link href="#"><i className="fab fa-facebook-f" /></Link>
-                                            <Link href="#"><i className="fab fa-twitter" /></Link>
-                                            <Link href="#"><i className="fa-brands fa-linkedin-in" /></Link>
-                                            <Link href="#"><i className="fa-brands fa-youtube" /></Link>
-                                        </div>
-                                    </div>
-                                </div>
+                <div className="footer-container">
+                    <div className="overlay"></div>
+                    <div className="content-wrapper">
+                        <div className="rw first-row">
+                            <div className="column">
+                                {/* Content for Column 1 */}
+                                <Heading/>
+                                <p className="p"> GOVT. AUTHORIZED (Registered Vehicle Scrapping Facility) </p>
+                                <div className="social-icon d-flex align-items-center">
+                                    <Link href="#"><i className="fab fa-facebook-f" /></Link>
+                                    <Link href="#"><i className="fab fa-twitter" /></Link>
+                                    <Link href="#"><i className="fa-brands fa-linkedin-in" /></Link>
+                                    <Link href="#"><i className="fa-brands fa-youtube" /></Link>
+                                </div>                                
                             </div>
-                            <div className="col-xl-2 col-lg-4 col-md-6 ps-lg-5 wow fadeInUp" data-wow-delay=".5s">
-                                <div className="single-footer-widget">
+                            <div className="column">
+                                {/* Content for Column 2 */}
+                                <div className="single-footer-widget special-widget">
                                     <div className="widget-head">
                                         <h3>Quick Links</h3>
                                     </div>
@@ -51,41 +37,23 @@ export default function Footer1() {
                                                 Home
                                             </Link>
                                         </li>
-                                        {/* <li>
+                                        <li>
                                             <Link href="/service">
                                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" height={'18px'} width={"18px"}><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg>
                                                 About Us
                                             </Link>
-                                        </li> */}
-                                         <li>                                   
-                                            <Link href="/about">
-                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" height={'18px'} width={"18px"}><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg>
-                                                About Us
-                                            </Link>
                                         </li>
-                                        {/* <li>
-                                            <Link href="/news">
-                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" height={'18px'} width={"18px"}><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg>
-                                                Portfolios
-                                            </Link>
-                                        </li> */}
                                         <li>
                                             <Link href="/contact">
                                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" height={'18px'} width={"18px"}><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg>
                                                 Contact
                                             </Link>
                                         </li>
-                                        {/* <li>
-                                            <Link href="/contact">
-                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" height={'18px'} width={"18px"}><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg>
-                                                Contact Us
-                                            </Link>
-                                        </li> */}
                                     </ul>
                                 </div>
                             </div>
-                            <div className="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".7s">
-                                <div className="single-footer-widget style-margin">
+                            <div className="column">
+                            <div className="single-footer-widget style-margin">
                                     <div className="widget-head">
                                         <h3>Recent Posts</h3>
                                     </div>
@@ -130,9 +98,12 @@ export default function Footer1() {
                                         </div>
                                     </div>
                                 </div>
+
                             </div>
-                            <div className="col-xl-3 col-lg-4 col-md-6 ps-xl-5 wow fadeInUp" data-wow-delay=".9s">
-                                <div className="single-footer-widget">
+                        </div>
+                        <div className="rw second-row">
+                            <div className="single-column">
+                            <div className="single-footer-widget">
                                     <div className="widget-head">
                                         <h3>Contact Us</h3>
                                     </div>
@@ -140,32 +111,41 @@ export default function Footer1() {
                                         <ul className="contact-info">
                                             <li>
                                                 <i className="fas fa-map-marker-alt" />
-                                                Al-muqaam Building,  Vishala, Ahmedabad, Gujarat 380055s
-                                            </li>
+                                                KURKUMBH PLANT : Gat No. 437,A/P-Malad, Pune Solapur Highway, Tal.-Daund, Dist.-Pune 413801</li>
                                             <li>
-                                                <i className="fa-solid fa-phone-volume" />
-                                                <Link href="tel:2086660112">+91 7874 278 859</Link>
+                                                <i className="fas fa-map-marker-alt" />
+                                                CORPORATE OFFICE : Gat No.1079, A/P- Kadamwakwasti, Pune - Solapur Highway, Tal. -Haveli, Dist.- Pune 412307</li>
+                                            <li>
+                                                <i className="fas fa-map-marker-alt" />
+                                                BRANCH OFFICE : SN-11/914/2B/16, Hindustan Valencia, Nibm Road, Kausarbaugh, Kondhwa, Pune, Maharashtra, 411048</li>
+                                            <li className="li-phone">
+                                                <div>
+                                                    <i className="fa-solid fa-phone-volume" />
+                                                    <Link href="tel:9011897786"> +91 9011897786</Link>
+                                                </div>
+                                                <div>
+                                                    <i className="fa-solid fa-phone-volume" />
+                                                    <Link href="tel:8805037786"> +91 8805037786</Link>
+                                                </div>
                                             </li>
                                             <li>
                                                 <i className="fa-regular fa-envelope" />
-                                                <Link href="mailto:infotech@gmail.com">info@aizinfotechs.com</Link>
+                                                <Link href="mailto:bmmotorspvt@gmail.com">bmmotorspvt@gmail.com</Link>
                                             </li>
                                         </ul>
                                         <Link href="/contact" className="theme-btn hover-white mt-4">
-                                            get A Quote
+                                            Contact us
                                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height={'17px'} width={"17px"} ><path d="M429.8 273l17-17-17-17L276.2 85.4l-17-17-33.9 33.9 17 17L354.9 232 24 232 0 232l0 48 24 0 330.8 0L242.2 392.6l-17 17 33.9 33.9 17-17L429.8 273z"/></svg>
                                         </Link>
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div>                      
                     </div>
-                </div>
-                <div className="footer-bottom">
+                    <div className="footer-bottom">
                     <div className="container">
                         <div className="footer-wrapper d-flex align-items-center justify-content-between">
                             <p className="wow fadeInLeft color-2" data-wow-delay=".3s">
-                                {/* © All Copyright {new Date().getFullYear()} by <Link href="/">B M Motors</Link> */}
                                 © All Copyright reseved
                             </p>
                             <ul className="footer-menu wow fadeInRight" data-wow-delay=".5s">
@@ -186,6 +166,7 @@ export default function Footer1() {
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" height={'20px'} width={"20px"}><path d="M209 50.2l-17-17-17 17L21.4 203.8l-17 17 33.9 33.9 17-17L168 125.1V456v24h48V456 125.1L328.6 237.8l17 17 33.9-33.9-17-17L209 50.2z"/></svg>
                     </Link>
                 </div>
+                </div>               
             </footer>
 
         </>

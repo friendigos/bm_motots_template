@@ -40,7 +40,7 @@ const Getinto = () => {
                                                 <div className="content">
                                                     <p>Quick Email</p>
                                                     <h3>
-                                                        <Link href="info@aizinfotechs.com">bmmotorspvt@gmail.com</Link>
+                                                        <Link href="bmmotorspvt@gmail.com">bmmotorspvt@gmail.com</Link>
                                                     </h3>
                                                 </div>
                                             </div>
