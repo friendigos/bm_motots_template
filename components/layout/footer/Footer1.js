@@ -14,7 +14,6 @@ export default function Footer1() {
                     <div className="content-wrapper">
                         <div className="rw first-row">
                             <div className="column">
-                                {/* Content for Column 1 */}
                                 <Heading/>
                                 <p className="p"> GOVT. AUTHORIZED (Registered Vehicle Scrapping Facility) </p>
                                 <div className="social-icon d-flex align-items-center">
@@ -25,7 +24,6 @@ export default function Footer1() {
                                 </div>                                
                             </div>
                             <div className="column">
-                                {/* Content for Column 2 */}
                                 <div className="single-footer-widget special-widget">
                                     <div className="widget-head">
                                         <h3>Quick Links</h3>
