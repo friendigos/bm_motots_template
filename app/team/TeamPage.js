@@ -32,17 +32,14 @@ const TeamPage = () => {
     return (
         <div className="team-page-main">        
             <div className="team-page">
-                <h1 className="team-page-heading">Who We Are</h1>
-                {/* <h1 style={{ textAlign: "center", margin: "20px 0", color: "#333" }}>
-                    Who We Are
-                </h1> */}
+                <h2>Meet the Team</h2>
                 {teamData.map((member, index) => (
                     <TeamInfo
                         key={index}
                         photo={member.photo}
                         heading={member.heading}
                         description={member.description}
-                        reverse={index % 2 === 1} // Alternate layout
+                        reverse={index % 2 === 1} 
                     />
                 ))}
             </div>

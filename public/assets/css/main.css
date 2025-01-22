@@ -8224,23 +8224,60 @@ html {
 .team-page-main {
   display: flex;
   justify-content: center;
-  background: var(--theme2);
+  background-color: var(--border3);
+  background-image: url("../../assets/img/right-bg-2.png");
   margin-top: 100px;
 }
+
 .team-page {
-  /* background-color: var(--bg); */
-  width: 80%;
+  width: 90%;
   padding-bottom: 5em;
   position: relative;
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+  min-height: 100vh; 
 }
+
+.team-page h2 {
+  font-size: 2.5em;
+  text-align: center;
+  margin: 1em 0;
+  color: var(--text-2);
+}
+
+@media (max-width: 1024px) {
+  .team-page h2 {
+    font-size: 2em;
+    margin: 0.8em 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .team-page h2 {
+    font-size: 1.8em;
+    margin: 0.6em 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .team-page h2 {
+    font-size: 1.5em;
+    margin: 0.5em 0;
+  }
+}
+
 .team-info {
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 10em;
-  margin: 2em 5em ;
+  justify-content: center; 
+  gap: 3em; 
+  margin: 2em 1em; 
   background: var(--bg);
   padding: 2em;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 80%;
 }
 
 .team-info.reverse {
@@ -8248,15 +8285,16 @@ html {
 }
 
 .photo img {
-  width: 15em;
-  height: 15em;
-  /* border-radius: 50%; */
+  width: 12em;
+  height: 12em;
   object-fit: cover;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 50%; 
 }
 
 .text {
-  max-width: 400px;
+  max-width: 100%; 
+  text-align: center; 
 }
 
 .text h2 {
@@ -8275,9 +8313,86 @@ html {
 .team-page-heading {
   text-align: center;
   margin: 5vmin 0;
-  color: var(--bg);
-  font-size: 3em;
+  color: var(--border2);
+  font-size: 2.5em;
 }
+
+@media (max-width: 1024px) {
+  .team-info {
+    gap: 2em; 
+    padding: 1.5em;
+    flex-wrap: wrap; 
+  }
+
+  .photo img {
+    width: 10em; 
+    height: 10em;
+  }
+
+  .text h2 {
+    font-size: 1.4em;
+  }
+
+  .text p {
+    font-size: 0.95em;
+  }
+}
+
+@media (max-width: 768px) {
+  .team-info {
+    flex-direction: column; 
+    text-align: center;
+    gap: 1.5em;
+
+  }
+
+  .photo img {
+    width: 9em;
+    height: 9em;
+  }
+
+  .text {
+    max-width: 100%;
+  }
+
+  .text h2 {
+    font-size: 1.3em;
+  }
+
+  .text p {
+    font-size: 0.9em;
+  }
+
+  .team-page-heading {
+    font-size: 2em;
+  }
+}
+
+@media (max-width: 480px) {
+  .team-info {
+    gap: 1em; 
+    padding: 1em;
+  }
+
+  .photo img {
+    width: 7em; 
+    height: 7em;
+  }
+
+  .text h2 {
+    font-size: 1.2em;
+  }
+
+  .text p {
+    font-size: 0.85em;
+  }
+
+  .team-page-heading {
+    font-size: 1.8em;
+  }
+}
+
+
 
 .footer-container {
   position: relative;
