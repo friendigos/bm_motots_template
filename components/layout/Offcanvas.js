@@ -41,8 +41,22 @@ export default function Offcanvas({
                                             <i className="fal fa-map-marker-alt" />
                                         </div>
                                         <div className="offcanvas__contact-text">
-                                            <Link target="_blank" href="tel:+917874278859">Corporate Office :Gat No.1079, A/P- Kadamwakwasti,Pune-Solapur Highway, Tal.-Haveli, Dist.- Pune 412307, mob:+91 91460 36003</Link>
+                                            KURKUMBH PLANT : Gat No. 437,A/P-Malad, Pune Solapur Highway, Tal.-Daund, Dist.-Pune 413801                                        
                                         </div>
+                                    </li>
+                                    <li className="d-flex align-items-center">
+                                        <div className="offcanvas__contact-icon">
+                                            <i className="fal fa-map-marker-alt" />
+                                        </div>
+                                        <div className="offcanvas__contact-text">
+                                        BRANCH OFFICE : SN-11/914/2B/16, Hindustan Valencia, Nibm Road, Kausarbaugh, Kondhwa, Pune, Maharashtra, 411048                                        </div>
+                                    </li>
+                                    <li className="d-flex align-items-center">
+                                        <div className="offcanvas__contact-icon">
+                                            <i className="fal fa-map-marker-alt" />
+                                        </div>
+                                        <div className="offcanvas__contact-text">
+                                        CORPORATE OFFICE : Gat No.1079, A/P- Kadamwakwasti, Pune - Solapur Highway, Tal. -Haveli, Dist.- Pune 412307                                        </div>
                                     </li>
                                     <li className="d-flex align-items-center">
                                         <div className="offcanvas__contact-icon mr-15">
