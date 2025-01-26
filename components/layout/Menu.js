@@ -115,8 +115,11 @@ export default function Menu() {
                     <Link href="#blank">FAQs</Link>
                 </li>
                 <li>
-                    <Link href="/contact">Think</Link>
+                    <Link href="/contact">Contact</Link>
                 </li>
+                <li>
+                    <Link href="https://vscrap.parivahan.gov.in/vehiclescrap/vahan/welcome.xhtml">Visit Gov. website</Link>
+                </li>                
             </ul>
         </>
     )

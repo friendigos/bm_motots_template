@@ -7,7 +7,7 @@ import VideoPopup from '../elements/VideoPopup'
 const Getinto = () => {
     return (
         <>
-            <div>
+            <div className='pt-5'>
                 <section className="contact-section fix section-padding">
                     <div className="container">
                         <div className="contact-wrapper-2">

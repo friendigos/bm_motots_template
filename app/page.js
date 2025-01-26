@@ -34,13 +34,13 @@ export default function Home() {
                 <Works/>
                 <WhyChooseReValue/>
                 <Brand1 />
-                <Service1 />
+                {/* <Service1 /> */}
                 {/* <Achievement4 /> */}
                 <ChooseUs1/>
                 {/* <Project1 /> */}
 
                 {/* <Marque2 /> */}
-                <Testimonial1 />
+                {/* <Testimonial1 /> */}
                 {/* <Team1 /> */}
                 {/* <Pricing1 /> */}
                 {/* <Faq1 /> */}

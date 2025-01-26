@@ -8,13 +8,13 @@ export default function About2() {
             <section className="about-section section-padding fix bg-cover" id="about" style={{ backgroundImage: 'url("assets/img/service/service-bg-2.jpg")' }}>
                 <div className="container">
                     <div className="about-wrapper style-2">
-                        <div className="row">
+                        <div className="roww">
                             <div className="col-lg-6">
                                 <div className="about-image-items">
                                     <div className="circle-shape">
                                         <img loading="lazy" src="/assets/img/about/circle.png" alt="shape-img" />
                                     </div>
-                                    <div className="counter-shape float-bob-y">
+                                    {/* <div className="counter-shape float-bob-y">
                                         <div className="icon">
                                             <img loading="lazy" src="/assets/img/about/icon-1.svg" alt="icon-img" />
                                         </div>
@@ -22,7 +22,7 @@ export default function About2() {
                                             <h3><CounterUp count={10 }/>Years</h3>
                                             <p>Of Experience</p>
                                         </div>
-                                    </div>
+                                    </div> */}
                                     <div className="img-div">
                                         <img loading="lazy" src="assets/img/NitinGadkari.jpg" alt="about-img" />                                    
                                     </div>

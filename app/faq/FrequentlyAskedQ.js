@@ -32,7 +32,7 @@ const FrequentlyAskedQ = () => {
     },
     {
       question: 'What documents are needed to sell my vehicle for scrapping?',
-      answer: '1. Original registration certificate 2. PAN card of registered owner 3. KYC of registered owner (Aadhar card OR Passport OR Voter ID of registered owner)* 4. Address Proof* 5. Vehicle Ownership proof Cancelled cheque of owner/Bank details with IMPS facility registered* 6. Loan closure certificate or NOC'
+      answer: '1. Original registration certificate \n2. PAN card of registered owner \n3. KYC of registered owner (Aadhar card OR Passport OR Voter ID of registered owner)* \n4. Address Proof* \n5. Vehicle Ownership proof Cancelled cheque of owner/Bank details with IMPS facility registered* \n6. Loan closure certificate or NOC'
     },
     {
       question: 'How should I dispose or scrap my old vehicle?',

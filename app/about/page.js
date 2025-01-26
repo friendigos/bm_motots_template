@@ -182,7 +182,7 @@ export default function About() {
                     </section> */}
                     {/* Brand Section Start */}
 
-                    <Testimonial1/>
+                    {/* <Testimonial1/> */}
                     <Getinto/>
                 {/* <News1/> */}
 

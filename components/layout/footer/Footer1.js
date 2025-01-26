@@ -50,54 +50,91 @@ export default function Footer1() {
                                     </ul>
                                 </div>
                             </div>
-                            <div className="column">
+                            {/* <div className="column">
                             <div className="single-footer-widget style-margin">
-                                    <div className="widget-head">
-                                        <h3>Recent Posts</h3>
-                                    </div>
-                                    <div className="recent-post-area">
-                                        <div className="recent-post-items">
-                                            <div className="thumb">
-                                                <img loading="lazy" src="/assets/img/news/pp1.jpg" alt="post-img" />
-                                            </div>
-                                            <div className="content">
-                                                <ul className="post-date">
-                                                    <li>
-                                                        <i className="fa-solid fa-calendar-days me-2" />
-                                                        20 Feb, 2024
-                                                    </li>
-                                                </ul>
-                                                <h6>
-                                                    <Link href="/news-details">
-                                                        Top 5 Most Famous <br />
-                                                        Technology Trend In 2024
-                                                    </Link>
-                                                </h6>
-                                            </div>
+                                <div className="widget-head">
+                                    <h3>Recent Posts</h3>
+                                </div>
+                                <div className="recent-post-area">
+                                    <div className="recent-post-items">
+                                        <div className="thumb">
+                                            <img loading="lazy" src="/assets/img/news/pp1.jpg" alt="post-img" />
                                         </div>
-                                        <div className="recent-post-items mb-0">
-                                            <div className="thumb">
-                                                <img loading="lazy" src="/assets/img/news/pp2.jpg" alt="post-img" />
-                                            </div>
-                                            <div className="content">
-                                                <ul className="post-date">
-                                                    <li>
-                                                        <i className="fa-solid fa-calendar-days me-2" />
-                                                        15 Dec, 2024
-                                                    </li>
-                                                </ul>
-                                                <h6>
-                                                    <Link href="/news-details">
-                                                        The Surfing Man Will Blow <br />
-                                                        Your Mind
-                                                    </Link>
-                                                </h6>
-                                            </div>
+                                        <div className="content">
+                                            <ul className="post-date">
+                                                <li>
+                                                    <i className="fa-solid fa-calendar-days me-2" />
+                                                    20 Feb, 2024
+                                                </li>
+                                            </ul>
+                                            <h6>
+                                                <Link href="/news-details">
+                                                    Top 5 Most Famous <br />
+                                                    Technology Trend In 2024
+                                                </Link>
+                                            </h6>
+                                        </div>
+                                    </div>
+                                    <div className="recent-post-items mb-0">
+                                        <div className="thumb">
+                                            <img loading="lazy" src="/assets/img/news/pp2.jpg" alt="post-img" />
+                                        </div>
+                                        <div className="content">
+                                            <ul className="post-date">
+                                                <li>
+                                                    <i className="fa-solid fa-calendar-days me-2" />
+                                                    15 Dec, 2024
+                                                </li>
+                                            </ul>
+                                            <h6>
+                                                <Link href="/news-details">
+                                                    The Surfing Man Will Blow <br />
+                                                    Your Mind
+                                                </Link>
+                                            </h6>
                                         </div>
                                     </div>
                                 </div>
-
-                            </div>
+                                </div>
+                                <div className="single-column">
+                                    <div className="single-footer-widget">
+                                        <div className="widget-head">
+                                            <h3>Contact Us</h3>
+                                        </div>
+                                        <div className="footer-content">
+                                            <ul className="contact-info">
+                                                <li>
+                                                    <i className="fas fa-map-marker-alt" />
+                                                    KURKUMBH PLANT : Gat No. 437,A/P-Malad, Pune Solapur Highway, Tal.-Daund, Dist.-Pune 413801</li>
+                                                <li>
+                                                    <i className="fas fa-map-marker-alt" />
+                                                    CORPORATE OFFICE : Gat No.1079, A/P- Kadamwakwasti, Pune - Solapur Highway, Tal. -Haveli, Dist.- Pune 412307</li>
+                                                <li>
+                                                    <i className="fas fa-map-marker-alt" />
+                                                    BRANCH OFFICE : SN-11/914/2B/16, Hindustan Valencia, Nibm Road, Kausarbaugh, Kondhwa, Pune, Maharashtra, 411048</li>
+                                                <li className="li-phone">
+                                                    <div>
+                                                        <i className="fa-solid fa-phone-volume" />
+                                                        <Link href="tel:9011897786"> +91 9011897786</Link>
+                                                    </div>
+                                                    <div>
+                                                        <i className="fa-solid fa-phone-volume" />
+                                                        <Link href="tel:8805037786"> +91 8805037786</Link>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <i className="fa-regular fa-envelope" />
+                                                    <Link href="mailto:bmmotorspvt@gmail.com">bmmotorspvt@gmail.com</Link>
+                                                </li>
+                                            </ul>
+                                            <Link href="/contact" className="theme-btn hover-white mt-4">
+                                                Contact us
+                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height={'17px'} width={"17px"} ><path d="M429.8 273l17-17-17-17L276.2 85.4l-17-17-33.9 33.9 17 17L354.9 232 24 232 0 232l0 48 24 0 330.8 0L242.2 392.6l-17 17 33.9 33.9 17-17L429.8 273z"/></svg>
+                                            </Link>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> */}
                         </div>
                         <div className="rw second-row">
                             <div className="single-column">

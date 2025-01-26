@@ -22,7 +22,7 @@ export default function About1() {
                                         </div>
                                     </div> */}
                                     <VideoPopup style={2} />
-                                    <div className="about-image-1 bg-cover wow fadeInLeft" data-wow-delay=".3s" style={{ backgroundImage: 'url("assets/img/about/01.jpg")' }}>
+                                    <div className="about-image-1 bg-cover wow fadeInLeft" data-wow-delay=".3s" style={{ backgroundImage: 'url("assets/img/NitinGadkari.jpg")' }}>
                                         {/* <div className="about-image-2 wow fadeInUp" data-wow-delay=".5s">
                                             <img loading="lazy" src="/assets/img/about/02.jpg" alt="about-img" />
                                         </div> */}
