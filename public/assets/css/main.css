@@ -8478,3 +8478,39 @@ html {
     font-size: 1.8em;
   }
 }
+
+
+.location-list {
+  list-style-type: none; 
+  padding-top: 50px;
+  padding-left: 50px;
+}
+
+.location-list li {
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  color: #444; 
+
+}
+
+.kurkumbh-link {
+  text-decoration: none;
+  color: #3498DB;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.kurkumbh-link:hover {
+  color: var(--bg2);
+}
+
+.kondhwa-link {
+  text-decoration: none;
+  color: #3498DB;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.kondhwa-link:hover {
+  color: var(--bg2);
+}

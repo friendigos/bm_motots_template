@@ -1,12 +1,13 @@
 
 // import VideoPopup from "@/components/elements/VideoPopup"
 import Layout from "@/components/layout/Layout"
-// import Link from "next/link"
+import Link from "next/link"
 import "/public/assets/css/bootstrap.min.css"
 import "/public/assets/css/main.css"
 import Getinto from "@/components/sections/Getinto"
 import FrequentlyAskedQ from "../faq/FrequentlyAskedQ"
 import Blank from "@/components/elements/Blank"
+import { La_Belle_Aurore } from "next/font/google"
 
 export default function Contact() {
 
@@ -115,14 +116,26 @@ export default function Contact() {
                     {/*<< Map Section Start >>*/}
                     <div className="map-section">
                         <div className="map-items">
-                            <div className="googpemap">
-
-                            {/* position: absolute; z-index: 0; left: 0px; top: 0px; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px; cursor: url(&quot;t;), default; touch-action: pan-x pan-y; */}
-                                
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7345.518394074814!2d72.5334635!3d22.9958808!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e856925fe7f89%3A0x85c1b8f5a9deefa0!2sAIZ%20Infotechs%20-%20Website%20Development%20%26%20IT%20Services%20Company!5e0!3m2!1sen!2sin!4v1721742724698!5m2!1sen!2sin" width="600" height="450" style={{ border: 0 }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            <div className="googpemap">                                
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d110676.31437585162!2d73.85674!3d18.4924619!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2e82133ccca07%3A0xfa32656b2156d877!2sTata%20motors!5e1!3m2!1sen!2sin!4v1738085007694!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                             </div>
                         </div>
                     </div>
+                    <ul className="location-list">
+                        <li>
+                            Visit <span> </span>
+                            <Link href="https://maps.app.goo.gl/6FgE4ASbHx2Mb2B49" className="kurkumbh-link">
+                                Kurkumbhh
+                            </Link>
+                        </li>
+                        <li>
+                            Visit <span> </span>
+                            <Link href="https://maps.app.goo.gl/TKdngwsoY6uuwFAx6" className="kondhwa-link">
+                                Kondhwa
+                            </Link>
+                        </li>
+                    </ul>
+
                     {/* <Blank/>
                     <FrequentlyAskedQ/> */}
                 </div>
