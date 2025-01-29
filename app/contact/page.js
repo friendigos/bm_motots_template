@@ -121,20 +121,6 @@ export default function Contact() {
                             </div>
                         </div>
                     </div>
-                    <ul className="location-list">
-                        <li>
-                            Visit <span> </span>
-                            <Link href="https://maps.app.goo.gl/6FgE4ASbHx2Mb2B49" className="kurkumbh-link">
-                                Kurkumbhh
-                            </Link>
-                        </li>
-                        <li>
-                            Visit <span> </span>
-                            <Link href="https://maps.app.goo.gl/TKdngwsoY6uuwFAx6" className="kondhwa-link">
-                                Kondhwa
-                            </Link>
-                        </li>
-                    </ul>
 
                     {/* <Blank/>
                     <FrequentlyAskedQ/> */}

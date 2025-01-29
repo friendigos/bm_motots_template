@@ -146,13 +146,16 @@ export default function Footer1() {
                                         <ul className="contact-info">
                                             <li>
                                                 <i className="fas fa-map-marker-alt" />
-                                                KURKUMBH PLANT : Gat No. 437,A/P-Malad, Pune Solapur Highway, Tal.-Daund, Dist.-Pune 413801</li>
+                                                <Link href="https://maps.app.goo.gl/6FgE4ASbHx2Mb2B49" className="address">KURKUMBH PLANT : Gat No. 437,A/P-Malad, Pune Solapur Highway, Tal.-Daund, Dist.-Pune 413801</Link>
+                                            </li>
                                             <li>
                                                 <i className="fas fa-map-marker-alt" />
-                                                CORPORATE OFFICE : Gat No.1079, A/P- Kadamwakwasti, Pune - Solapur Highway, Tal. -Haveli, Dist.- Pune 412307</li>
+                                                <Link href="https://maps.app.goo.gl/5oifgHT9UnRCtiuW6" className="address">CORPORATE OFFICE : Gat No.1079, A/P- Kadamwakwasti, Pune - Solapur Highway, Tal. -Haveli, Dist.- Pune 412307</Link>
+                                            </li>
                                             <li>
                                                 <i className="fas fa-map-marker-alt" />
-                                                BRANCH OFFICE : SN-11/914/2B/16, Hindustan Valencia, Nibm Road, Kausarbaugh, Kondhwa, Pune, Maharashtra, 411048</li>
+                                                <Link href="https://maps.app.goo.gl/TKdngwsoY6uuwFAx6" className="address">BRANCH OFFICE : SN-11/914/2B/16, Hindustan Valencia, Nibm Road, Kausarbaugh, Kondhwa, Pune, Maharashtra, 411048</Link>
+                                            </li>
                                             <li className="li-phone">
                                                 <div>
                                                     <i className="fa-solid fa-phone-volume" />
