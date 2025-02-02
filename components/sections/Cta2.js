@@ -18,13 +18,12 @@ const Cta2 = () => {
                             <div className="content">
                                 <span>Call Us Or Whatsapp</span>
                                 <h4>
-                                    <Link href="+91 7874278859"> +91 7874278859  </Link>
-
+                                    <Link href="+91 7874278859"> +91 90118 97786  </Link>
                                 </h4>
                             </div>
                         </div>
                         <h3>
-                        PERFECT SOLUTION FOR < br/>YOUR COMPANY.
+                        SMART & HASSLE-FREE < br/>VEHICLE SCRAPPING.
 
                         </h3>
 

@@ -2,12 +2,11 @@
 import Link from 'next/link'
 import VideoPopup from '../elements/VideoPopup'
 import CounterUp from '../elements/CounterUp'
-import TeamPage from '@/app/team/TeamPage'
+
 
 export default function About3() {
     return (
         <>
-            <TeamPage />
             <section className="about-section section-padding fix bg-cover" id="about">
                 <div className="container">
                     <div className="about-wrapper-2">

@@ -36,13 +36,13 @@ export default function About2() {
                             <div className="col-lg-6 mt-4 mt-lg-0">
                                 <div className="about-content">
                                     <div className="section-title">
-                                        <span className="wow fadeInUp">ABOUT COMPANY</span>
+                                        <span className="wow fadeInUp">ABOUT GOVERNMENT POLICY</span>
                                         <h2 className="wow fadeInUp" data-wow-delay=".3s">
-                                        Web Development  <span>Company</span>
+                                        Vehicle Scrappage <span> Policy</span>
                                         </h2>
                                     </div>
                                     <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
-                                    AIZ INFOTECH Is A Web Development And Designing Company Committed To Providing Unmatched IT Services To Fulfill Clients’ Vision Into Reality. Our Web Development Agency Follows A Result-Oriented Process Focused On Client Satisfaction.Our Expert Website Development Team Is Experienced In Offering Enterprise-Level Solutions That Are Secure And Highly Reliable. We Are Passionate About WordPress And Know Every Detail Of It, When It Comes To Website Development, Irrespective Of Your Requirements, You Can Count On Our Dedicated Custom Website Development Team To Fulfill Them And Deliver The Most Effective Results.
+                                    The Vehicle Scrappage Policy was notified by MORTH (Ministry of Road, Transport and Highways) in Sept. 2021, aiming to replace old vehicles with modern & new vehicles on Indian roads. According to the new policy, commercial vehicles aged more than 15 years and passenger vehicles aged more than 20 years will have to mandatorily go for fitness test and if it fails, then to be treated as End-of-Life vehicle which will have to be scrapped through a RVSF (Registered Vehicle Scrappage Facility). Further, this policy also draws several incentives and dis-incentives for scrapping or continuingwith the older vehicles.
                                     </p>
                                     {/* <div className="about-icon-items">
                                         <div className="icon-items wow fadeInUp" data-wow-delay=".7s">
@@ -70,7 +70,7 @@ export default function About2() {
                                     </div> */}
                                     <div className="about-author">
                                         <div className="about-button wow fadeInUp" data-wow-delay=".5s">
-                                            <Link href="/about" className="theme-btn">
+                                            <Link href="https://morth.nic.in/vehicle-scrapping-policy-overview" className="theme-btn">
                                             Discover More
                                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height={'17px'} width={"17px"} ><path d="M429.8 273l17-17-17-17L276.2 85.4l-17-17-33.9 33.9 17 17L354.9 232 24 232 0 232l0 48 24 0 330.8 0L242.2 392.6l-17 17 33.9 33.9 17-17L429.8 273z"/></svg>
                                             </Link>
