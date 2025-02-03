@@ -114,9 +114,9 @@ export default function Menu() {
                 <li onClick={() => handleNavigation('blank')} style={{ cursor: 'pointer' }}>
                     <Link href="#blank">FAQs</Link>
                 </li>
-                <li>
+                {/* <li>
                     <Link href="/contact">Contact</Link>
-                </li>
+                </li> */}
                 <li>
                     <Link href="https://vscrap.parivahan.gov.in/vehiclescrap/vahan/welcome.xhtml">Visit Gov. website</Link>
                 </li>                

@@ -49,7 +49,7 @@ export default function Offcanvas({
                                 </div>
                             </div>
                             <p className="text-[#585858] hidden lg:block">
-                                Nullam dignissim, ante scelerisque the is euismod fermentum odio sem semper the is erat, a feugiat leo urna eget eros. Duis Aenean a imperdiet risus.
+                            Scrap Smart With BM Motors – Quick, Reliable, And Hassle-Free Vehicle Disposal Solutions!.
                             </p>
                             <div className="block lg:hidden">
                                 <MobileMenu />

@@ -31,13 +31,13 @@ export default function ChooseUs1() {
                             <div className="col-lg-6 mt-4 mt-lg-0">
                                 <div className="choose-content">
                                     <div className="section-title">
-                                        <span className="wow fadeInUp">BEAUTIFUL APPLICATION FOR YOUR BUSINESS</span>
+                                        <span className="wow fadeInUp">Government Website for scrapping Vehicles</span>
                                         <h2 className="wow fadeInUp" data-wow-delay=".3s">
-                                            App Development
+                                            Registered Vehicle Scrapping Facility
                                         </h2>
                                     </div>
                                     <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
-                                        Application Development Refers To The Process Of Creating Software Applications That Serve Specific Functions Or Provide Solutions For Various Purposes. This Can Include Developing Applications For Desktops, Mobile Devices, Web Platforms, Or Even Embedded Systems
+                                    Access official vehicle scrapping guidelines and complete your deregistration process seamlessly through the Government Vahan Portal.
                                     </p>
                                     {/* <div className="choose-list-area">
                                         <ul className="choose-list wow fadeInUp" data-wow-delay=".7s">
@@ -62,7 +62,7 @@ export default function ChooseUs1() {
                                         </ul>
                                     </div> */}
                                     <div className="progress-wrap">
-                                        <div className="pro-items wow fadeInUp" data-wow-delay=".5s">
+                                        {/* <div className="pro-items wow fadeInUp" data-wow-delay=".5s">
                                             <div className="pro-head">
                                                 <h6 className="title">
                                                     Android Application
@@ -74,8 +74,8 @@ export default function ChooseUs1() {
                                             <div className="progress">
                                                 <div className="progress-value" />
                                             </div>
-                                        </div>
-                                        <div className="pro-items wow fadeInUp" data-wow-delay=".7s">
+                                        </div> */}
+                                        {/* <div className="pro-items wow fadeInUp" data-wow-delay=".7s">
                                             <div className="pro-head">
                                                 <h6 className="title">
                                                     IOS Application
@@ -87,7 +87,7 @@ export default function ChooseUs1() {
                                             <div className="progress">
                                                 <div className="progress-value style-two" />
                                             </div>
-                                        </div>
+                                        </div> */}
                                         <div className="hero-button">
                                             <Link href="https://vscrap.parivahan.gov.in/vehiclescrap/vahan/welcome.xhtml" className="theme-btn wow fadeInUp" data-wow-delay=".8s">
                                                 Visit Government Website for scrapping Vehicles
