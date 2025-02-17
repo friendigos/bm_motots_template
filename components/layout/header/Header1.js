@@ -59,16 +59,15 @@ export default function Header1({
                                     </li>
                                     <li>
                                         <i className="fa-solid fa-phone-volume" />
-                                        <Link href="tel:2086660112">+91 7874 278 859</Link>
+                                        <Link href="tel:2086660112">+91 9011897786</Link>
                                     </li>
                                 </ul>
                                 <div className="top-right">
                                     <div className="social-icon d-flex align-items-center">
                                         <span>Follow Us:</span>
                                         <Link href="https://www.facebook.com/aizinfotech" aria-label="Visit our Facebook page"><i className="fab fa-facebook-f" /></Link>
-                                        <Link href="https://x.com/aizinfotechs" aria-label="Visit our Twitter page"><i className="fab fa-twitter" /></Link>
-                                        <Link href="https://www.linkedin.com/company/aizinfotechs/" aria-label="Visit our Linkedin page"><i className="fa-brands fa-linkedin-in" /></Link>
-                                        <Link href="https://www.youtube.com/" aria-label="Visit our Youtube page"><i className="fa-brands fa-youtube" /></Link>
+                                        <Link href="https://x.com/aizinfotechs" aria-label="Visit our Twitter page"><i className="fab fa-instagram" /></Link>
+                                        <Link href="https://www.youtube.com/channel/UCRinedtawt7JqsD830MucDg" aria-label="Visit our Youtube page"><i className="fa-brands fa-youtube" /></Link>
                                     </div>
                                 </div>
                             </div>
