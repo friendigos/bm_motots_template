@@ -6,22 +6,22 @@ import VehicleScrappingCalculator from '../elements/VehicleScrappingCalculator'
 export default function Hero1() {
     return (
         <>
-            <section className="hero-section fix hero-1 bg-cover" style={{ backgroundImage: 'url("assets/img/hero/hero-bg.jpg")' }}>
+            <section className="hero-section fix hero-1 bg-cover" style={{ backgroundImage: 'url("assets/img/hero/banner23.jpeg")' }}>
                 <div className="text-transparent">
                     <h2>RE-VALUE RVSF</h2>
                 </div>
-                <div className="line-shape">
+                {/* <div className="line-shape">
                     <img loading="lazy" src="/assets/img/hero/line-shape.png" alt="shape-img" />
-                </div>
+                </div> */}
                 <div className="dot-shape">
                     <img loading="lazy" src="/assets/img/hero/dot-shape.png" alt="shape-img" />
                 </div>
                 <div className="frame-shape">
                     <img loading="lazy" src="/assets/img/hero/frame.png" alt="shape-img" />
                 </div>
-                <div className="mask-shape wow fadeInRight" data-wow-delay=".7s">
+                {/* <div className="mask-shape wow fadeInRight" data-wow-delay=".7s">
                     <img loading="lazy" src="/assets/img/hero/mask-shape.png" alt="shape-img" />
-                </div>
+                </div> */}
                 <div className="container">
                     <div className="row g-4 align-items-center">
                         <div className="col-lg-8">

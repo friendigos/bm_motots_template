@@ -79,7 +79,7 @@ export default function Offcanvas({
                                             <i className="far fa-phone" />
                                         </div>
                                         <div className="offcanvas__contact-text">
-                                            <Link href="tel:+917874278859">+91 91460 36003</Link>
+                                            <Link href="tel:+9191460 36003">+91 91460 36003</Link>
                                         </div>
                                     </li>
                                 </ul>
@@ -88,11 +88,10 @@ export default function Offcanvas({
                                         <span>Contact Us<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height={'17px'} width={"17px"} ><path d="M429.8 273l17-17-17-17L276.2 85.4l-17-17-33.9 33.9 17 17L354.9 232 24 232 0 232l0 48 24 0 330.8 0L242.2 392.6l-17 17 33.9 33.9 17-17L429.8 273z"/></svg></span>
                                     </Link>
                                 </div>
-                                <div className="social-icon d-flex align-items-center">
+                                <div className="but d-flex align-items-center">
                                     <Link href="https://www.facebook.com/aizinfotech" aria-label="Visit our Facebook page"><i className="fab fa-facebook-f" /></Link>
-                                    <Link href="https://x.com/aizinfotechs" aria-label="Visit our Twitter page"><i className="fab fa-twitter" /></Link>
-                                    <Link href="https://www.youtube.com/" aria-label="Visit our Youtube page"><i className="fab fa-youtube" /></Link>
-                                    <Link href="https://www.linkedin.com/company/aizinfotechs/" aria-label="Visit our Linkedin page"><i className="fab fa-linkedin-in" /></Link>
+                                    <Link href="https://x.com/aizinfotechs" aria-label="Visit our Instagram page"><i className="fab fa-instagram" /></Link>
+                                    <Link href="https://www.youtube.com/channel/UCRinedtawt7JqsD830MucDg" aria-label="Visit our Youtube page"><i className="fab fa-youtube" /></Link>
                                 </div>
                             </div>
                         </div>
