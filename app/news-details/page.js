@@ -152,7 +152,7 @@ export default function NewsDetails() {
                                                 <div className="row g-4">
                                                     <div className="col-lg-6">
                                                         <div className="form-clt">
-                                                            <input type="text" name="name" id="name" placeholder="Your Name" />
+                                                            <input type="text" name="name" id="name" placeholder="asYour Name" />
                                                         </div>
                                                     </div>
                                                     <div className="col-lg-6">

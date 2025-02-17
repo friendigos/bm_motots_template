@@ -11,7 +11,9 @@
         "minify-css": "postcss public/assets/css/*.css --use cssnano --dir public/assets/css/minified"
     },
     "dependencies": {
+        "@emailjs/browser": "^4.4.1",
         "@vercel/speed-insights": "^1.0.12",
+        "axios": "^1.7.9",
         "next": "14.1.4",
         "react": "18.2.0",
         "react-countup": "^6.5.3",

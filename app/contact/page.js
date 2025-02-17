@@ -117,7 +117,7 @@ export default function Contact() {
                     <div className="map-section">
                         <div className="map-items">
                             <div className="googpemap">                                
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d110676.31437585162!2d73.85674!3d18.4924619!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2e82133ccca07%3A0xfa32656b2156d877!2sTata%20motors!5e1!3m2!1sen!2sin!4v1738085007694!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d110676.31437585162!2d73.85674!3d18.4924619!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2e82133ccca07%3A0xfa32656b2156d877!2sTata%20motors!5e1!3m2!1sen!2sin!4v1738085007694!5m2!1sen!2sin" allowFullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                             </div>
                         </div>
                     </div>

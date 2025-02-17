@@ -34,7 +34,7 @@ export default function Contact1() {
                                         <div className="row g-4">
                                             <div className="col-lg-6 wow fadeInUp" data-wow-delay=".3s">
                                                 <div className="form-clt">
-                                                    <span>Your name*</span>
+                                                    <span>asYour name*</span>
                                                     <input type="text" name="name" id="name" placeholder="Robot fox" />
                                                 </div>
                                             </div>
