@@ -17,9 +17,9 @@ export default function Footer1() {
                                 <Heading/>
                                 <p className="p"> GOVT. AUTHORIZED (Registered Vehicle Scrapping Facility) </p>
                                 <div className="social-icon d-flex align-items-center">
-                                    <Link href="#"><i className="fab fa-facebook-f" /></Link>
-                                    <Link href="#"><i className="fab fa-twitter" /></Link>
-                                    <Link href="#"><i className="fa-brands fa-youtube" /></Link>
+                                    <Link href="https://www.facebook.com/profile.php?id=61570457327710"><i className="fab fa-facebook-f" /></Link>
+                                    <Link href="https://www.instagram.com/"><i className="fab fa-instagram" /></Link>
+                                    <Link href="https://www.youtube.com/channel/UCRinedtawt7JqsD830MucDg"><i className="fa-brands fa-youtube" /></Link>
                                 </div>                                
                             </div>
                             <div className="column">

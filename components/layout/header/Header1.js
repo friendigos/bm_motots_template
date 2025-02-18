@@ -65,8 +65,8 @@ export default function Header1({
                                 <div className="top-right">
                                     <div className="social-icon d-flex align-items-center">
                                         <span>Follow Us:</span>
-                                        <Link href="https://www.facebook.com/aizinfotech" aria-label="Visit our Facebook page"><i className="fab fa-facebook-f" /></Link>
-                                        <Link href="https://x.com/aizinfotechs" aria-label="Visit our Twitter page"><i className="fab fa-instagram" /></Link>
+                                        <Link href="https://www.facebook.com/profile.php?id=61570457327710" aria-label="Visit our Facebook page"><i className="fab fa-facebook-f" /></Link>
+                                        <Link href="https://x.com/aizinfotechs" aria-label="Visit our Instagram page"><i className="fab fa-instagram" /></Link>
                                         <Link href="https://www.youtube.com/channel/UCRinedtawt7JqsD830MucDg" aria-label="Visit our Youtube page"><i className="fa-brands fa-youtube" /></Link>
                                     </div>
                                 </div>
