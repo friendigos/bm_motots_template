@@ -34,11 +34,11 @@ export default function About1() {
                                     <div className="section-title">
                                         <span className="wow fadeInUp">OUR COMPANY</span>
                                         <h2 className="wow fadeInUp" data-wow-delay=".3s">
-                                        Find Out More About Our <span>Business Consulting</span>
+                                        Vehicle Scrappage <span>Policy</span>
                                         </h2>
                                     </div>
                                     <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
-                                    Fusce Quis Lacus Laoreet, Dignissim Quam Eu, Scelerisque Tortor. Cras Volutpat Aliquet Efficitur. Quisque Dignissim Justo Ac Erat Tincidunt Tristique. Curabitur Id Tortor Ipsum. Suspendisse Suscipit Commodo Turpis Eu Interdum Volutpat Aliquet Efficitur.
+                                    The Vehicle Scrappage Policy was notified by MORTH (Ministry of Road, Transport and Highways) in Sept. 2021, aiming to replace old vehicles with modern & new vehicles on Indian roads. According to the new policy, commercial vehicles aged more than 15 years and passenger vehicles aged more than 20 years will have to mandatorily go for fitness test and if it fails, then to be treated as End-of-Life vehicle which will have to be scrapped through a RVSF (Registered Vehicle Scrappage Facility). Further, this policy also draws several incentives and dis-incentives for scrapping or continuingwith the older vehicles.
                                     </p>
                                     {/* <div className="about-icon-items">
                                         <div className="icon-items wow fadeInUp" data-wow-delay=".7s">
@@ -66,7 +66,7 @@ export default function About1() {
                                     </div> */}
                                     <div className="about-author">
                                         <div className="about-button wow fadeInUp" data-wow-delay=".5s">
-                                            <Link href="/about" className="theme-btn">
+                                            <Link href="https://morth.nic.in/vehicle-scrapping-policy-overview" className="theme-btn">
                                             Read More
                                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height={'17px'} width={"17px"} ><path d="M429.8 273l17-17-17-17L276.2 85.4l-17-17-33.9 33.9 17 17L354.9 232 24 232 0 232l0 48 24 0 330.8 0L242.2 392.6l-17 17 33.9 33.9 17-17L429.8 273z"/></svg>
                                             </Link>
