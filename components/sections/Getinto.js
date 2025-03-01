@@ -140,7 +140,7 @@ const Getinto = () => {
                                         <div className="video-image">
                                             <img
                                                 loading="lazy"
-                                                src="/assets/img/Contactus.png"
+                                                src="/assets/img/contact.png"
                                                 alt="img"
                                             />
                                         </div>
