@@ -22,6 +22,8 @@ import Works from "@/app/bm-works/Works"
 import FrequentlyAskedQ from "./faq/FrequentlyAskedQ"
 import WhyChooseReValue from "./why-choose/WhyChooseRevalue"
 import Blank from "@/components/elements/Blank"
+import VehicleScrappingRisks from "@/components/sections/risk"
+import RiskCard from "@/components/sections/risk"
 export default function Home() {
 
     return (
@@ -37,6 +39,7 @@ export default function Home() {
                 {/* <Service1 /> */}
                 {/* <Achievement4 /> */}
                 <ChooseUs1/>
+                <RiskCard/> 
                 {/* <Project1 /> */}
 
                 {/* <Marque2 /> */}
