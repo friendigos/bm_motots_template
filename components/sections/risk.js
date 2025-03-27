@@ -5,25 +5,25 @@ const risks = [
     title: "Lack of Documentation",
     description:
       "Documentation & paperwork with RTA is essential to transfer the vehicle ownership, de-registration of vehicle & availing NOC for scrapping. Un-authorised scrap dealers will not follow the process which leads to losing track & trail of the scrap vehicle.",
-    image: "/assets/img/contact.png",
+    image: "/assets/img/lod2.png",
   },
   {
     title: "Illegal Activities",
     description:
       "Vehicles handed over to un-authorized scrap dealers lacks proper track & these are potentially used for illegal or criminal activities & the vehicle owner will be held responsible for the consequences arising.",
-    image: "/assets/img/contact.png",
+    image: "/assets/img/ill.png",
   },
   {
     title: "No Proof of Scrapping",
     description:
       "Un-authorised scrap dealers will not provide proof of scrapping & is not guaranteed that your vehicle has actually undergone scrapping & can also be plying on road illegally. Whereas an RVSF will provide certificate of scrapping as a proof & it can have benefits while purchasing new vehicle.",
-    image: "/assets/img/contact.png",
+    image: "/assets/img/proof.png",
   },
   {
     title: "No Tangible Benefits",
     description:
       "You may only get scrap value of vehicle if you hand over the vehicle at un-authorised scrap dealer. But when you follow proper channel for scrapping through RVSF you'll get Certificate of Scrapping & Certificate of Deposit which is tradable for concession on motor vehicle tax & registration charges on purchase of new vehicle.",
-    image: "/assets/img/contact.png",
+    image: "/assets/img/tang.jpg",
   },
 ];
 
@@ -68,7 +68,8 @@ const RiskCard = () => {
               <img
                 src={risk.image}
                 alt={risk.title}
-                className="w-full h-full object-cover"
+                className="w-full h-full"
+                style={{ maxWidth: '80px', maxHeight: '80px', objectFit: 'contain' }}
               />
             </div>
           </div>
