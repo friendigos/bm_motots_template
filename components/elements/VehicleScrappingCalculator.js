@@ -12,7 +12,7 @@ const VehicleScrappingCalculator = () => {
       return;
     }
 
-    const value = weight * 0.65 * 28;
+    const value = weight * 0.65 * 30;
     setScrapValue(value.toFixed(2));
   };
 

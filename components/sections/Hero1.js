@@ -28,7 +28,7 @@ export default function Hero1() {
                             <div className="hero-content">
                                 <h6 className="wow fadeInUp" data-wow-delay=".2s">Your Go-To Vehicle Scrapping Facility</h6>
                                 <h1 className="wow fadeInUp" data-wow-delay=".4s">
-                                    BM Motors PVT LTD
+                                    B M Motors PVT LTD
                                 </h1>
                                 {/* <p className="wow fadeInUp" data-wow-delay=".6s">
                                     Consectetur adipiscing elit aenean scelerisque at augue vitae consequat <br /> quisque eget congue velit in cursus leo sed sodales est eget turpis.
