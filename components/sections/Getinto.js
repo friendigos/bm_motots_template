@@ -99,7 +99,7 @@ const Getinto = () => {
                                                 <div className="content">
                                                     <p>Quick Email</p>
                                                     <h3>
-                                                        <Link href="bmmotorspvt@gmail.com">
+                                                        <Link href="mailto:bmmotorspvt@gmail.com" style={{ textTransform: "lowercase" }}>
                                                             bmmotorspvt@gmail.com
                                                         </Link>
                                                     </h3>
@@ -150,7 +150,7 @@ const Getinto = () => {
                                     <div className="contact-content">
                                         <h2>GET IN TOUCH</h2>
                                         <h3 className="pb-3">
-                                            Scrap Smart with BM Motors – Quick, Reliable, and
+                                            Scrap Smart with B M Motors – Quick, Reliable, and
                                             Hassle-Free Vehicle Disposal Solutions!
                                         </h3>
                                         <p>
