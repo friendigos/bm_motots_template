@@ -47,23 +47,23 @@ const RiskCard = () => {
         </div> */}
       </div>
       {risks.map((risk, index) => (
-        <div key={index} style={{ display: 'flex', flexDirection: 'row', padding: '24px', backgroundColor: '#f7fafc', borderRadius: '8px', boxShadow: '0 1px 3px rgba(0, 0, 0, 0.1)' }}>
+        <div key={index} style={{ display: 'flex', flexDirection: 'row', padding: '24px', backgroundColor: 'rgba(56,75,255,255)', borderRadius: '8px', boxShadow: '0 1px 3px rgba(0, 0, 0, 0.1)' }}>
           {/* Text Section */}
-            <div style={{ width: '80%', textAlign: 'left' }}>
-              <h3 style={{ fontSize: '1.25rem', fontWeight: '600', color: '#4a5568', marginTop: '8px', textDecoration: 'underline' }}>
+            <div style={{ width: '85%', textAlign: 'left' }}>
+              <h3 style={{ fontSize: '1.25rem', fontWeight: '600', color: 'rgba(255,255,254,255)', marginTop: '8px', textDecoration: 'underline' }}>
 
               {risk.title}
             </h3>
-            <p className="text-gray-600 mt-2 leading-relaxed">
+            <p className="text-black-600 mt-2 leading-relaxed" style={{color: 'rgba(255,255,254,255)'}}>
               {risk.description}
             </p>
           </div>
           <hr style={{ margin: '16px 0', border: '1px solid #cbd5e0' }} />
 
           {/* Circular Image Section */}
-            <div style={{ width: '20%', display: 'flex', justifyContent: 'center', margin: '0', padding: '0' }}>
+            <div style={{ width: '15%', display: 'flex', justifyContent: 'center', margin: '0', padding: '0' }}>
 
-                <div style={{ width: '80px', height: '80px', borderRadius: '50%', overflow: 'hidden', border: '4px solid #e2e8f0', boxShadow: '0 1px 3px rgba(0, 0, 0, 0.1)', display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '4px' }}>
+                <div style={{ width: '90px', height: '90px', borderRadius: '50%', overflow: 'hidden', border: '4px solid #e2e8f0', boxShadow: '0 1px 3px rgba(0, 0, 0, 0.1)', display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '4px' }}>
 
               <img
                 src={risk.image}
