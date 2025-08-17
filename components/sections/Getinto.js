@@ -67,7 +67,7 @@ const Getinto = () => {
                                                 <div className="content">
                                                     <p>Tell With Us</p>
                                                     <h3>
-                                                        <Link href="tel:+91 7874278859">
+                                                        <Link href="tel:+91 9011897786">
                                                             +91 9011897786
                                                         </Link>
                                                     </h3>

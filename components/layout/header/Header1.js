@@ -59,7 +59,7 @@ export default function Header1({
                                     </li>
                                     <li>
                                         <i className="fa-solid fa-phone-volume" />
-                                        <Link href="tel:2086660112">+91 9011897786</Link>
+                                        <Link href="tel:9011897786">+91 9011897786</Link>
                                     </li>
                                 </ul>
                                 <div className="top-right">
